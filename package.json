@@ -1,0 +1,21 @@
+{
+  "name": "server_side",
+  "version": "0.0.5",
+  "description": "server_base and data_base",
+  "main": "index.js",
+  "scripts": {
+    "test": "run",
+    "dev": "node --watch --no-warnings index.js"
+  },
+  "type":"module" ,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Jhulie",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "fastify": "^5.2.1"
+  }
+}

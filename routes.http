@@ -1,0 +1,48 @@
+POST http://localhost:3333/pedido
+Content-Type: application/json
+
+{
+    "nome": "BurguerCia",
+    "cliente": "Cleitinho",
+    "pedido": "X-Tudo",
+    "telefone": "123456-78",
+    "endereço": "Jardim dos Coqueiros, R.azul 67",
+    "taxa": "R$ 5,00"
+}
+
+###
+
+GET http://localhost:3333/pedido
+
+###
+
+GET http://localhost:3333/pedido?search=Primavera
+
+###
+
+PUT http://localhost:3333/pedido/
+Content-Type: application/json
+
+{
+
+    "nome": "BurguerMADHFsahfdhagsdh",
+    "cliente": "Cleitinho",
+    "pedido": "X-Tudo",
+    "telefone": "123456-78",
+    "endereço": "Jardim dos Coqueiros, R.azul 67",
+    "taxa": "R$ 5,00"  
+}
+
+
+###
+
+PATCH http://localhost:3333/pedido/
+Content-Type: application/json
+
+{
+    "nome": "BurguerCia"
+}
+
+###
+
+DELETE http://localhost:3333/pedido/b594eb4d-bad8-4660-88c3-f22d703fcaf6
